@@ -1,0 +1,25 @@
+{
+  "name": "sui-binary-option-oracle",
+  "version": "1.0.0",
+  "description": "Off-chain oracle and settlement service for SUI 5-min binary options",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "oracle": "ts-node src/oracle.ts",
+    "settler": "ts-node src/settler.ts"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.20.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.6.0"
+  }
+}
