@@ -10,3 +10,4 @@ contract/.sui/
 
 # Frontend
 frontend/.env.local
+.gstack/
